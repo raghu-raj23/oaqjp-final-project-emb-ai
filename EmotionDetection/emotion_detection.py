@@ -9,7 +9,7 @@ def emotion_detector(text_to_analyze):
 
     emotionObj = json.loads(response.text)["emotionPredictions"][0]["emotion"]
     for k, v in emotionObj.items():
-        emotionObj[k] = v*100
+        emotionObj[k] = v
     
     emotionObj['dominant_emotion'] = next((k for k,v in emotionObj.items() if v == max(emotionObj.values())), None)
     
