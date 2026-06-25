@@ -1,0 +1,6 @@
+theia@theiadocker-raghurajmuni:/home/project/oaqjp-final-project-emb-ai$ python3.11
+Python 3.11.14 (main, Oct 10 2025, 08:54:03) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from EmotionDetection import emotion_detector
+>>> emotion_detector("I hate working long hours.")
+{'anger': 64.999825, 'disgust': 3.349073, 'fear': 5.567235999999999, 'joy': 0.8661813, 'sadness': 19.678932, 'dominant_emotion': 'anger'}
