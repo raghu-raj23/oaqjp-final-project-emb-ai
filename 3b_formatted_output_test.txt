@@ -1,0 +1,6 @@
+theia@theiadocker-raghurajmuni:/home/project/oaqjp-final-project-emb-ai$ python3.11
+Python 3.11.14 (main, Oct 10 2025, 08:54:03) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from emotion_detection import emotion_detector
+>>> emotion_detector("I am so happy I am doing this.")
+{'anger': 0.43339236000000003, 'disgust': 0.037549555000000005, 'fear': 0.34732423, 'joy': 99.47189, 'sadness': 1.2704818, 'dominant_emotion': 'joy'}
